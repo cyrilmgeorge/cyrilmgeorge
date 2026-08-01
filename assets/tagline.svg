@@ -1,0 +1,45 @@
+<svg width="500" height="60" viewBox="0 0 500 60" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 26px;
+      font-weight: 600;
+    }
+    .w1 { opacity: 0; animation: word1 8s ease-in-out infinite; }
+    .w2 { opacity: 0; animation: word2 8s ease-in-out infinite; }
+    .w3 { opacity: 0; animation: word3 8s ease-in-out infinite; }
+
+    @keyframes word1 {
+      0%   { opacity: 0; fill: #f97316; }
+      6%   { opacity: 1; fill: #f97316; }
+      56%  { opacity: 1; fill: #f97316; }
+      69%  { opacity: 1; fill: #b45309; }
+      90%  { opacity: 1; fill: #b45309; }
+      98%  { opacity: 0; fill: #b45309; }
+      100% { opacity: 0; fill: #f97316; }
+    }
+    @keyframes word2 {
+      0%   { opacity: 0; fill: #ec4899; }
+      19%  { opacity: 0; fill: #ec4899; }
+      25%  { opacity: 1; fill: #ec4899; }
+      56%  { opacity: 1; fill: #ec4899; }
+      69%  { opacity: 1; fill: #b45309; }
+      90%  { opacity: 1; fill: #b45309; }
+      98%  { opacity: 0; fill: #b45309; }
+      100% { opacity: 0; fill: #ec4899; }
+    }
+    @keyframes word3 {
+      0%   { opacity: 0; fill: #8b5cf6; }
+      37%  { opacity: 0; fill: #8b5cf6; }
+      44%  { opacity: 1; fill: #8b5cf6; }
+      56%  { opacity: 1; fill: #8b5cf6; }
+      69%  { opacity: 1; fill: #b45309; }
+      90%  { opacity: 1; fill: #b45309; }
+      98%  { opacity: 0; fill: #b45309; }
+      100% { opacity: 0; fill: #8b5cf6; }
+    }
+  </style>
+  <text x="250" y="38" text-anchor="middle">
+    <tspan class="w1">Learning. </tspan><tspan class="w2">Building. </tspan><tspan class="w3">Improving.</tspan>
+  </text>
+</svg>
